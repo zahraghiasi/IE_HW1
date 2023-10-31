@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One', sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #E15252;
+    cursor: pointer;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    height: 10%;
+    background-color: #C4C4C4;
+}

@@ -1,0 +1,41 @@
+.contact {
+    background-image: url("../assets/contact_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.contact__card {
+    background-color: #E15252;
+    width: 60%;
+    padding: 32px 16px 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 32px;
+}
+
+.contact__card-form {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.contact__card-form-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 8px;
+}
+
+.contact__card-form-item-thumb {
+    width: 16px;
+}
